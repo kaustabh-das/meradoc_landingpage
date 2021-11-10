@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import HeroImg from "../../images/heroimg.svg";
 
 const Hero = () => {
   return (
@@ -9,7 +10,14 @@ const Hero = () => {
           Feel better after speaking <br /> to a MeraClinic <br /> Doctor
         </p>
       </div>
-      <div className="hero-bottom"></div>
+      <div className="hero-bottom">
+        <div className="hero-button">
+          <p>Book Consultation</p>
+        </div>
+        <div className="hero-img-div">
+          <img className="hero-img" src={HeroImg} />
+        </div>
+      </div>
     </div>
   );
 };

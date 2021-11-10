@@ -1,0 +1,174 @@
+/* meraClinic */
+.body-section {
+  width: 100%;
+  margin-top: 3rem;
+}
+.meraClinic {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2.5rem;
+  border-radius: 24px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f5faff;
+}
+.meraClinic-left-div {
+  width: 40%;
+}
+.meraClinic-header {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52px;
+  margin-bottom: 0.8rem;
+}
+.meraClinic-pera {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1d2939;
+  margin-bottom: 0.5rem;
+}
+.meraClinic-desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.meraClinic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  border-radius: 4px;
+  width: 13rem;
+  height: 3rem;
+  color: #fff;
+  background: #1570ef;
+}
+.meraClinic-right-div {
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+  width: 40%;
+}
+.meraClinicImg {
+  width: 23rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 962px) {
+  .meraClinic {
+    background: #f5faff;
+    flex-direction: column;
+  }
+  .meraClinic-left-div {
+    width: 100%;
+  }
+  .meraClinic-right-div {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .meraClinic-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .meraClinicImg {
+    width: 15rem;
+    margin-top: 2rem;
+  }
+  .meraClinic-header {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 52px;
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* meraClinic-works */
+.meraClinic-works {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.meraClinic-works-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  margin-bottom: 1.8rem;
+}
+.meraClinic-works-img {
+  width: 90%;
+}
+
+@media screen and (max-width: 492px) {
+  .meraClinic-works-header {
+    font-size: 25px;
+  }
+}
+
+/* meraClinic-feature */
+.meraClinic-feature {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  /* margin-bottom: 3rem; */
+}
+.meraClinic-feature-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  margin-bottom: 1rem;
+}
+.meraClinic-feature-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  /* height: 1rem; */
+  /* background-color: chocolate; */
+}
+.meraClinic-feature-card {
+  width: 30%;
+  min-width: 17rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #d1e9ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.meraClinic-feature-card-header {
+  margin-top: 0.8rem;
+  margin-bottom: 1.7rem;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0e69c2;
+}
+.meraClinic-feature-card-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  min-width: 10rem;
+  height: 3rem;
+  background: #f5faff;
+  color: #0e69c2;
+  border: 1px solid #f5faff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 492px) {
+  .meraClinic-feature-cards {
+    justify-content: center;
+  }
+  .meraClinic-feature-header {
+    font-size: 22px;
+  }
+}
