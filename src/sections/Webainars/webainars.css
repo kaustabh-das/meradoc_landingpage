@@ -1,0 +1,80 @@
+/* webainars */
+.webainars {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  /* margin-bottom: 2.5rem; */
+}
+.webainars-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  color: #1d2939;
+  letter-spacing: 0.38px;
+}
+.webainars-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1.5rem;
+  /* height: 1rem; */
+  /* background: seagreen; */
+}
+.webainars-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  min-width: 22rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #d1e9ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.webainars-card-body-p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.webainars-card-img {
+  /* height: 15rem; */
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.webainars-card-doctor-div {
+  display: flex;
+  margin-top: 1rem;
+}
+.webainars-card-doctor-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 0.5rem;
+  /* background: chartreuse; */
+}
+.webainars-card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 12rem;
+  height: 2rem;
+  background: #f5faff;
+  border: 1px solid #f5faff;
+  color: #175cd3;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 498px) {
+  .webainars-cards {
+    justify-content: center;
+  }
+  .webainars-card {
+    min-width: 20rem;
+  }
+}

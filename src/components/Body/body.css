@@ -86,6 +86,9 @@
     line-height: 52px;
     margin-bottom: 0.8rem;
   }
+  .meraClinic-desc {
+    font-size: 16px;
+  }
 }
 
 /* meraClinic-works */
@@ -170,5 +173,362 @@
   }
   .meraClinic-feature-header {
     font-size: 22px;
+  }
+}
+
+/* speakers-profile */
+.speakers-profile {
+  width: 80%;
+  margin: 0 auto;
+  /* margin-top: 3rem; */
+}
+.speakers-profile-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  margin-bottom: 0.5rem;
+}
+.speakers-profile-desc {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0.5rem;
+}
+.speakers-profile-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.speakers-profile-card {
+  width: 30%;
+  min-width: 17rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #d1e9ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.speakers-profile-card-img {
+  width: 5rem;
+  border-radius: 5.5vh;
+  border: 3.5px solid #d1e9ff;
+}
+.speakers-profile-card-header {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0e69c2;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.speakers-profile-card-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 492px) {
+  .speakers-profile-cards {
+    justify-content: center;
+  }
+  .speakers-profile-header {
+    font-size: 22px;
+  }
+  .speakers-profile-desc {
+    font-size: 16px;
+  }
+}
+
+/* webainars-banner */
+.webainars-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  /* height: 2rem; */
+  padding: 3rem;
+  margin: 0 auto;
+  background: #1849a9;
+  border: 1px solid #d1e9ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.webainars-banner-left-div {
+  /* background-color: salmon; */
+  width: 50%;
+  min-width: 20rem;
+}
+.webainars-banner-header {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 52px;
+  color: #ffffff;
+  margin-bottom: 1.7rem;
+}
+.webainars-banner-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.webainars-banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 3rem;
+  margin-top: 1.7rem;
+  color: #175cd3;
+  background: #f5faff;
+  border: 1px solid #f5faff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.webainars-banner-right-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  min-width: 20rem;
+  /* background-color: red; */
+}
+.webainars-banner-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 511px) {
+  .webainars-banner {
+    padding-left: 1.5rem;
+  }
+  .webainars-banner-left-div {
+    justify-content: center;
+    width: 100%;
+    min-width: 12rem;
+  }
+  .webainars-banner-header {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .webainars-banner-button {
+    width: 12rem;
+    font-size: 10px;
+  }
+  .webainars-banner-right-div {
+    justify-content: center;
+    width: 100%;
+    min-width: 12rem;
+  }
+  .webainars-banner-img {
+    width: 80%;
+    /* background-color: sandybrown; */
+  }
+}
+
+/* aliances */
+.aliances {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.aliances-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  color: #1d2939;
+}
+.aliances-desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344054;
+}
+.aliances-cards {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  margin-top: 0.5rem;
+  /* background-color: yellowgreen; */
+}
+.aliances-cards-div-left {
+  display: flex;
+  justify-content: space-between;
+  width: 47.5%;
+  /* background-color: violet; */
+}
+.aliances-cards-div-right {
+  display: flex;
+  justify-content: space-between;
+  width: 47.5%;
+  /* background-color: red; */
+}
+.aliances-card {
+  width: 45%;
+  background: #1570ef;
+}
+
+@media screen and (max-width: 748px) {
+  .aliances-cards {
+    flex-direction: column;
+  }
+  .aliances-cards-div-left {
+    width: 100%;
+  }
+  .aliances-cards-div-right {
+    width: 100%;
+  }
+  .aliances-card {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 448px) {
+  .aliances-card {
+    width: 48%;
+  }
+}
+
+/* testimonials */
+.testimonials {
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonials-header {
+  letter-spacing: 0.38px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  color: #1d2939;
+}
+.testimonials-desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344054;
+}
+.testimonials-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1rem;
+  /* background-color: #175cd3; */
+}
+.testimonials-card {
+  width: 32%;
+  min-width: 17rem;
+  background: #ffffff;
+  border: 1px solid #d1e9ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+.testimonials-card-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+}
+.testimonials-card-name {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0e69c2;
+  margin-top: 0.5rem;
+}
+.testimonials-card-stars {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 492px) {
+  .testimonials-cards {
+    justify-content: center;
+  }
+}
+
+/* meraDoc-Banner */
+.meraDoc-Banner {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.meraDoc-Banner-left-div {
+  width: 50%;
+  padding-right: 5rem;
+  /* background-color: red; */
+}
+.meraDoc-Banner-header {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  color: #0655a3;
+}
+.meraDoc-Banner-desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1d2939;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.meraDoc-Banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  background: #1570ef;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.meraDoc-Banner-right-div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-top: 1rem;
+  /* background-color: saddlebrown; */
+}
+.meraDoc-BannerImg {
+  width: 100%;
+}
+
+@media screen and (max-width: 962px) {
+  .meraDoc-Banner {
+    /* background: #f5faff; */
+    flex-direction: column;
+  }
+  .meraDoc-Banner-left-div {
+    width: 100%;
+  }
+  .meraDoc-Banner-right-div {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .meraDoc-Banner {
+    margin-top: 1rem;
+  }
+  .meraDoc-Banner-left-div {
+    width: 100%;
+    padding-right: 0;
+  }
+  .meraDoc-Banner-header {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 52px;
+    margin-bottom: 0.8rem;
+  }
+  .meraDoc-Banner-desc {
+    font-size: 16px;
   }
 }
