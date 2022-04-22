@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.068e2c73.chunk.css",
+    "main.js": "/static/js/main.2b238784.chunk.js",
+    "main.js.map": "/static/js/main.2b238784.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bec7a22f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bec7a22f.js.map",
+    "static/js/2.20a5378c.chunk.js": "/static/js/2.20a5378c.chunk.js",
+    "static/js/2.20a5378c.chunk.js.map": "/static/js/2.20a5378c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.068e2c73.chunk.css.map": "/static/css/main.068e2c73.chunk.css.map",
+    "static/js/2.20a5378c.chunk.js.LICENSE.txt": "/static/js/2.20a5378c.chunk.js.LICENSE.txt",
+    "static/media/Responsive-meraclinic-works.d6ece707.svg": "/static/media/Responsive-meraclinic-works.d6ece707.svg",
+    "static/media/Vector.e96eac65.svg": "/static/media/Vector.e96eac65.svg",
+    "static/media/blue-stars.cd0829cb.svg": "/static/media/blue-stars.cd0829cb.svg",
+    "static/media/facebook-icon.a4f9232d.svg": "/static/media/facebook-icon.a4f9232d.svg",
+    "static/media/heroimg.f29e8302.svg": "/static/media/heroimg.f29e8302.svg",
+    "static/media/insta-logo.126a76a7.svg": "/static/media/insta-logo.126a76a7.svg",
+    "static/media/meraclincBanner.c450bc23.png": "/static/media/meraclincBanner.c450bc23.png",
+    "static/media/meraclinic-works.bbaa4ff5.svg": "/static/media/meraclinic-works.bbaa4ff5.svg",
+    "static/media/meradoc.aa9cb4a7.svg": "/static/media/meradoc.aa9cb4a7.svg",
+    "static/media/page-logo.d97413c6.svg": "/static/media/page-logo.d97413c6.svg",
+    "static/media/person1.cf06e95b.svg": "/static/media/person1.cf06e95b.svg",
+    "static/media/social-icons.ec3427ba.svg": "/static/media/social-icons.ec3427ba.svg",
+    "static/media/webainarsdoc.dd2cff47.svg": "/static/media/webainarsdoc.dd2cff47.svg",
+    "static/media/webinar-banner.d0f823d1.svg": "/static/media/webinar-banner.d0f823d1.svg",
+    "static/media/webinars_img.127e85fc.svg": "/static/media/webinars_img.127e85fc.svg",
+    "static/media/youtube-icon.63df7d81.svg": "/static/media/youtube-icon.63df7d81.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bec7a22f.js",
+    "static/js/2.20a5378c.chunk.js",
+    "static/css/main.068e2c73.chunk.css",
+    "static/js/main.2b238784.chunk.js"
+  ]
+}
